@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.veriapipro/veriapi",
+  "title": "VeriApi.Pro",
+  "description": "Turkey data: exchange rates, gold, fuel prices, pharmacies on duty, prayer times, weather, quakes",
+  "version": "1.0.0",
+  "websiteUrl": "https://veriapi.pro/yapay-zeka",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.veriapi.pro/v1/mcp",
+      "headers": [
+        {
+          "name": "X-API-Key",
+          "description": "VeriApi.Pro API key (free plan available at https://veriapi.pro/panel)",
+          "isRequired": true,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
