@@ -1,5 +1,7 @@
 # VeriApi.Pro MCP server — Turkey data for AI agents
 
+[![VeriApi.Pro MCP connector](https://glama.ai/mcp/connectors/io.github.veriapipro/veriapi/badges/score.svg)](https://glama.ai/mcp/connectors/io.github.veriapipro/veriapi)
+
 Hosted (remote) [Model Context Protocol](https://modelcontextprotocol.io) server for **[VeriApi.Pro](https://veriapi.pro)**,
 a single-key data API for Turkey. Connect Claude, Cursor, VS Code or any MCP client and ask for live Turkish data:
 exchange rates, Grand Bazaar gold prices, fuel prices by province, pharmacies on duty, prayer times, weather,
@@ -15,7 +17,7 @@ https://api.veriapi.pro/v1/mcp
 - **Free plan:** 500 request units per day, no credit card → [veriapi.pro/panel](https://veriapi.pro/panel)
 - Responses are Turkish JSON and include the data source.
 
-Registry name: `io.github.veriapipro/veriapi` ([MCP Registry](https://registry.modelcontextprotocol.io)).
+Registry name: `io.github.veriapipro/veriapi` ([MCP Registry](https://registry.modelcontextprotocol.io)). Also listed on [Glama](https://glama.ai/mcp/connectors/io.github.veriapipro/veriapi).
 
 ## Setup
 
